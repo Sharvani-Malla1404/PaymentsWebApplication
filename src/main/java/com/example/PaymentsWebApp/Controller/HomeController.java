@@ -13,6 +13,7 @@ public class HomeController {
 
 	@GetMapping("/index")
 	public String homePage() {
+		
 		return "index"; // Renders home.jsp
 	}
 
@@ -21,18 +22,18 @@ public class HomeController {
 //        return "profile";  // Renders profile.jsp
 //    }
 
-	@GetMapping("/transactions")
-	public String transactionsPage() {
-		return "transactions"; // Renders transactions.jsp
-	}
+//	@GetMapping("/viewtransactions")
+//	public String transactionsPage() {
+//		return "viewtransactions"; // Renders viewtransactions.jsp
+//	}
 
 	@GetMapping("/bankstatement")
 	public String statementPage() {
 		return "bankstatement"; // Renders bankstatement.jsp
 	}
 
-	@GetMapping("/logout")
-	public String logoutPage() {
-		return "logout"; // Renders logout.jsp
-	}
+//	@GetMapping("/logout")
+//	public String logoutPage() {
+//		return "logout"; // Renders logout.jsp
+//	}
 }
