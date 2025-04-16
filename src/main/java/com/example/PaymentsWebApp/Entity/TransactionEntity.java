@@ -1,7 +1,5 @@
 package com.example.PaymentsWebApp.Entity;
 
-
-
 import jakarta.persistence.*;
 import java.util.Date;
 
